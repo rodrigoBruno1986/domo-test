@@ -44,19 +44,19 @@ function TestThree() {
       <div className={isOpen ? 'menu menu-open' : 'menu'}>
         <ul className='nav-list d-flex flex-column align-items-start mt-3'>
           <li className='nav-item'>
-            <a href='#'>Home</a>
+            <a>Home</a>
           </li>
           <li className='nav-item'>
-            <a href='#'>Work</a>
+            <a>Work</a>
           </li>
           <li className='nav-item'>
-            <a href='#'>About</a>
+            <a>About</a>
           </li>
           <li className='nav-item'>
-            <a href='#'>Contact</a>
+            <a>Contact</a>
           </li>
           <li className='nav-item'>
-            <a href='#'>Cart (0)</a>
+            <a>Cart (0)</a>
           </li>
         </ul>
       </div>
@@ -93,19 +93,19 @@ function TestThree() {
             </div>
             <ul className='nav-list d-flex flex-column align-items-start mt-3'>
               <li className='nav-item'>
-                <a href='#'>Home</a>
+                <a>Home</a>
               </li>
               <li className='nav-item'>
-                <a href='#'>Work</a>
+                <a>Work</a>
               </li>
               <li className='nav-item'>
-                <a href='#'>About</a>
+                <a>About</a>
               </li>
               <li className='nav-item'>
-                <a href='#'>Contact</a>
+                <a>Contact</a>
               </li>
               <li className='nav-item'>
-                <a href='#'>Cart (0)</a>
+                <a>Cart (0)</a>
               </li>
             </ul>
           </nav>

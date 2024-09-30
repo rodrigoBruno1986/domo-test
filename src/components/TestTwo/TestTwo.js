@@ -28,16 +28,16 @@ function TestTwo() {
         <div className='navbar navbar-light bg-white box-shadow'>
           <div className='container  justify-content-between align-items-center'>
             <div className='social-net d-none d-md-flex align-items-center'>
-              <a href='#' className='mx-2'>
+              <a className='mx-2'>
                 <i className='fab fa-x-twitter'></i>
               </a>
-              <a href='#' className='mx-2'>
+              <a className='mx-2'>
                 <i className='fab fa-instagram'></i>
               </a>
-              <a href='#' className='mx-2'>
+              <a className='mx-2'>
                 <i className='fab fa-linkedin'></i>
               </a>
-              <a href='#' className='mx-2'>
+              <a className='mx-2'>
                 <i className='fab fa-dribbble'></i>
               </a>
             </div>
@@ -76,7 +76,7 @@ function TestTwo() {
                   <p className='text-muted'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
-                  <a href='#' className='learn-more-link'>
+                  <a className='learn-more-link'>
                     Learn more{' '}
                     <i className='fas fa-arrow-right rotated-arrow'></i>
                   </a>
@@ -92,7 +92,7 @@ function TestTwo() {
                   <p className='text-muted'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
-                  <a href='#' className='learn-more-link'>
+                  <a className='learn-more-link'>
                     Learn more{' '}
                     <i className='fas fa-arrow-right rotated-arrow'></i>
                   </a>
@@ -111,16 +111,16 @@ function TestTwo() {
       </div>
       <footer>
         <div className='social-net-mobile d-flex align-items-center d-md-none'>
-          <a href='#' className='mx-2'>
+          <a className='mx-2'>
             <i className='fab fa-x-twitter'></i>
           </a>
-          <a href='#' className='mx-2'>
+          <a className='mx-2'>
             <i className='fab fa-instagram'></i>
           </a>
-          <a href='#' className='mx-2'>
+          <a className='mx-2'>
             <i className='fab fa-linkedin'></i>
           </a>
-          <a href='#' className='mx-2'>
+          <a className='mx-2'>
             <i className='fab fa-dribbble'></i>
           </a>
         </div>

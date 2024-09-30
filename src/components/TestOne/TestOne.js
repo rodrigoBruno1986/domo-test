@@ -27,7 +27,7 @@ function TestOne() {
       <header>
         <div class='navbar navbar-dark bg-white box-shadow'>
           <div class='container d-flex justify-content-between'>
-            <a href='#' class='navbar-brand d-flex align-items-center logo-p'>
+            <a class='navbar-brand d-flex align-items-center logo-p'>
               <img src='logo_testone.png' alt='' />
             </a>
             <button class='circle-button'>
