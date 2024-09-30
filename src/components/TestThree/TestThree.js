@@ -44,19 +44,19 @@ function TestThree() {
       <div className={isOpen ? 'menu menu-open' : 'menu'}>
         <ul className='nav-list d-flex flex-column align-items-start mt-3'>
           <li className='nav-item'>
-            <a>Home</a>
+            <a href='https://domo.com.ar/'>Home</a>
           </li>
           <li className='nav-item'>
-            <a>Work</a>
+            <a href='https://domo.com.ar/'>Work</a>
           </li>
           <li className='nav-item'>
-            <a>About</a>
+            <a href='https://domo.com.ar/'>About</a>
           </li>
           <li className='nav-item'>
-            <a>Contact</a>
+            <a href='https://domo.com.ar/'>Contact</a>
           </li>
           <li className='nav-item'>
-            <a>Cart (0)</a>
+            <a href='https://domo.com.ar/'>Cart (0)</a>
           </li>
         </ul>
       </div>
@@ -93,19 +93,19 @@ function TestThree() {
             </div>
             <ul className='nav-list d-flex flex-column align-items-start mt-3'>
               <li className='nav-item'>
-                <a>Home</a>
+                <a href='https://domo.com.ar/'>Home</a>
               </li>
               <li className='nav-item'>
-                <a>Work</a>
+                <a href='https://domo.com.ar/'>Work</a>
               </li>
               <li className='nav-item'>
-                <a>About</a>
+                <a href='https://domo.com.ar/'>About</a>
               </li>
               <li className='nav-item'>
-                <a>Contact</a>
+                <a href='https://domo.com.ar/'>Contact</a>
               </li>
               <li className='nav-item'>
-                <a>Cart (0)</a>
+                <a href='https://domo.com.ar/'>Cart (0)</a>
               </li>
             </ul>
           </nav>
