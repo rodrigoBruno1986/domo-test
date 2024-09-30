@@ -11,31 +11,19 @@ function TestThree() {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    const menu = document.querySelector('.menu');
-
-    if (menu.classList.contains('menu-open')) {
-      menu.style.height = '0';
-      menu.classList.remove('menu-open');
-    } else {
-      menu.style.height = '100vh';
-      menu.classList.add('menu-open');
-    }
-  };
-
   const MobileMenu = () => (
     <>
       <button
-        className='navbar-toggler' // Botón hamburguesa / Cerrar
+        className='navbar-toggler'
         type='button'
         onClick={() => {
-          setIsOpen(!isOpen); // Cambia el estado para alternar el menú
-        }} // Usa tu función toggle
+          setIsOpen(!isOpen);
+        }}
       >
         {isOpen ? (
-          <span className='close-icon'>✖</span> // Mostramos la "X" cuando está abierto
+          <span className='close-icon'>✖</span>
         ) : (
-          <span className='navbar-toggler-icon'>☰</span> // Mostramos la hamburguesa cuando está cerrado
+          <span className='navbar-toggler-icon'>☰</span>
         )}
       </button>
 
@@ -43,16 +31,16 @@ function TestThree() {
         className='navbar-toggler'
         type='button'
         onClick={() => {
-          setIsOpen(!isOpen); // Cambia el estado para alternar el menú
+          setIsOpen(!isOpen);
         }}
       >
         {isOpen ? (
-          <span className='close-icon'>✖</span> // Mostramos la "X" cuando isOpen es true
+          <span className='close-icon'>✖</span>
         ) : (
-          <span className='navbar-toggler-icon'>☰</span> // Mostramos la hamburguesa cuando isOpen es false
+          <span className='navbar-toggler-icon'>☰</span>
         )}
       </button>
-      {/* Menú controlado por isOpen */}
+
       <div className={isOpen ? 'menu menu-open' : 'menu'}>
         <ul className='nav-list d-flex flex-column align-items-start mt-3'>
           <li className='nav-item'>
@@ -93,11 +81,10 @@ function TestThree() {
         <div className='logo'>
           <img src='/logo-m.png' alt='Logo' className='logo-imgm' />
         </div>
-        {/* Muestra el menú hamburguesa si es mobile */}
+
         {isMobile ? (
           <MobileMenu />
         ) : (
-          // Menú normal para escritorio
           <nav className='nav'>
             <div className='nav-text'>
               <span>
