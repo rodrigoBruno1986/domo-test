@@ -119,6 +119,34 @@ function Home() {
             </div>
           </div>
         </div>
+
+        {/* Footer horizontal */}
+        <footer className='footer mt-5'>
+          <div className='footer-container d-flex justify-content-between align-items-center'>
+            <div className='footer-left'>
+              <h4>Contacto</h4>
+              <p>
+                <strong>Rodrigo Sebastián Benítez</strong>
+                <br />
+                Email: rodrigo.sbenitez@gmail.com
+                <br />
+                Teléfono: +54 9 11 6451-3491
+                <br />
+                Ubicación: Buenos Aires, Argentina
+              </p>
+            </div>
+            <div className='footer-right'>
+              <h4>Sobre el Proyecto</h4>
+              <p>
+                Este proyecto es el resultado de un desafío de maquetación y
+                desarrollo web utilizando React.js. El propósito principal fue
+                implementar una solución de interfaz intuitiva y adaptable. Se
+                hizo énfasis en mantener un código modular y reutilizable para
+                mejorar la experiencia del usuario.
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );
