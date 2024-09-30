@@ -1,0 +1,67 @@
+.logo-p{
+    width: 90px;
+}
+
+.circle{
+    height: 230px;
+    width: 230px;
+    border-radius: 200px;
+}
+.circle-button {
+    width: 90px;
+    height: 90px;
+    border: 2px solid;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.circle-button::after {
+    content: "";
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+}
+
+.circle-button::before {
+    content: "";
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+}
+
+.text-white{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.container-auto h5{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .circle {
+        width: 140px;
+        height: 140px;
+        border-radius: 80px;
+        margin-top: 23px;
+    }
+    .text-white{
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+    }
+}

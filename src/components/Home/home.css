@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .container-auto {
+        max-width: 1130px;
+        margin: auto;
+    }
+
+   
+}
+.content-home header{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}  
+.home-row{
+    margin-left:0px !important;
+}
+.mt-6{
+    margin-top: 6rem;
+}
+
+.test{
+    margin-top: 10rem;
+}
