@@ -37,7 +37,7 @@ function Home() {
           </div>
         </div>
       </header>
-      <div role='div test'>
+      <div>
         <section className='jumbotron text-center'>
           <div className='container'>
             <h1 className='jumbotron-heading'>Challenge DOMO</h1>
